@@ -130,9 +130,3 @@ Compatibility:
 4. **Atomicity:** spot claiming uses a conditional database update; check-in/out use transactions.
 5. **Persistence modeling:** current spot state is separate from historical parking tickets.
 
-## Before submitting
-
-- Run the API locally and test all endpoints.
-- Add screenshots of successful check-in, availability and check-out responses if your cohort accepts them.
-- Ensure `.env` is not committed.
-- Replace the README author section, if you add one, with your own details and be prepared to explain the design decisions.
